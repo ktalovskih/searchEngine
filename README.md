@@ -1,12 +1,22 @@
 # searchEngine
+# How to Build on Linux
+mkdir build_examples 
+
+cmake -S . -B build_examples 
+
+sudo cmake --build build_examples --target install 
+
+cd build_examples/SearchEngine 
+
+./SearchEngine
 
 # How to Build on Windows
 
-mkdir build_examples
+mkdir build_examples 
 
 cmake -S . -B build_examples
 
-cmake --build build_examples --target ALL_BUILD
+cmake --build build_examples --target ALL_BUILD 
 
 ##
 # An Example of Output
