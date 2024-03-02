@@ -1,0 +1,16 @@
+{
+    "answers": {
+        "request1": [
+            {
+                "relevance": [],
+                "result": false
+            }
+        ],
+        "request2": [
+            {
+                "relevance": [],
+                "result": false
+            }
+        ]
+    }
+}
