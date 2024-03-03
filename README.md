@@ -26,13 +26,13 @@ cd build_examples\SearchEngine\Debug
 
 In the program window
 ##
-Processing file: C:/Users/whisper/Desktop/2/CMakeProject1/file001.txt
+Unable to open file: ../../../TestData/file004.txt
 
-Processing file: C:/Users/whisper/Desktop/2/CMakeProject1/file002.txt
+Unable to open file: ../../../TestData/file003.txt
 
-Processing file: C:/Users/whisper/Desktop/2/CMakeProject1/file003.txt
+Unable to open file: ../../../TestData/file002.txt
 
-Processing file: C:/Users/whisper/Desktop/2/CMakeProject1/file004.txt
+Unable to open file: ../../../TestData/file001.txt
 
 req: milk water
 
