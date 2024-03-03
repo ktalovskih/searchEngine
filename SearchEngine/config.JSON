@@ -5,10 +5,9 @@
 		"max_responses": 5
 	},
 	"files": {
-		"file1": "C:/Users/whisper/Desktop/searchEngine-main/SearchEngine/testData/file001.txt",
-		"file2": "C:/Users/whisper/Desktop/searchEngine-main/SearchEngine/testData/file002.txt",
-		"file3": "C:/Users/whisper/Desktop/searchEngine-main/SearchEngine/testData/file003.txt",
-		"file4": "C:/Users/whisper/Desktop/searchEngine-main/SearchEngine/testData/file004.txt"
+		"file1": "../../../../TestData/file004.txt",
+		"file2": "../../../../TestData/file003.txt",
+		"file3": "../../../../TestData/file002.txt",
+		"file4": "../../../../TestData/file001.txt"
 	}
-	
 }
