@@ -6,7 +6,7 @@ cmake -S . -B build_examples
 
 sudo cmake --build build_examples --target install 
 
-build_examples/SearchEngine/SearchEngine ## run
+build_examples/SearchEngine/SearchEngine ## run program
 
 # How to Build on Windows
 
