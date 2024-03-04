@@ -5,9 +5,9 @@
 		"max_responses": 5
 	},
 	"files": {
-		"file1": "../../../TestData/file004.txt",
-		"file2": "../../../TestData/file003.txt",
-		"file3": "../../../TestData/file002.txt",
-		"file4": "../../../TestData/file001.txt"
+		"file1": "../../TestData/file004.txt",
+		"file2": "../../TestData/file003.txt",
+		"file3": "../../TestData/file002.txt",
+		"file4": "../../TestData/file001.txt"
 	}
 }
