@@ -4,7 +4,7 @@ mkdir build_examples
 
 cmake -S . -B build_examples 
 
-sudo cmake --build build_examples --target install 
+cmake --build build_examples
 
 cd build_examples/SearchEngine
 
