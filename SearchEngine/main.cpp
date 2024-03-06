@@ -1,8 +1,8 @@
-﻿#include "nlohmann/json.hpp"
+#include "nlohmann/json.hpp"
 #include "gtest/gtest.h"
 #include "Index.h"
 #include <chrono>
-
+#include <cctype>
 std::mutex mute;
 using namespace std;
 void countWord(const std::string& word, InvertedIndex& idx) {
@@ -18,14 +18,20 @@ int main() {
 
     for (const auto& config : configs) {
         std::ifstream file(config.path);
-        std::string temp;
+        std::string temp = " ";
 
         if (!file.is_open()) {
             std::cerr << "Unable to open file: " << config.path << std::endl;
             continue;
         }
+        char ch;
+        while (file.get(ch)) {
 
-        std::getline(file, temp);
+            if (isalpha(ch) || ch == ' ') {
+                temp += ch;
+            }
+            
+        }
 
         std::cout << "Processing file: " << config.path << std::endl;
         data.push_back(temp);
