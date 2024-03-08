@@ -14,9 +14,9 @@ cd build_examples/SearchEngine
 
 mkdir build_examples 
 
-cmake -S . -B build_examples
+cmake -G "MinGW Makefiles" -S . -B build_examples
 
-cmake --build build_examples --target ALL_BUILD 
+cmake --build build_examples 
 
 cd build_examples\SearchEngine\Debug
 
