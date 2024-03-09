@@ -18,7 +18,7 @@ cmake -G "MinGW Makefiles" -S . -B build_examples
 
 cmake --build build_examples 
 
-cd build_examples\SearchEngine\Debug
+cd build_examples\SearchEngine
 
 ./SearchEngine.exe
 ##
