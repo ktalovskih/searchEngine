@@ -32,7 +32,9 @@ cd build_examples/SearchEngine
 ##
 # How to Run the Tests
 To run test you should add after run programs files --run_tests like an agrgument. After that in the command line will be results of tests
-For example: ./SearchEngine.exe --run_tests. it is a running test in the Windows.
+For example: 
+./SearchEngine.exe --run_tests. 
+it is a running test in the Windows.
 # An Example of Output
 In the program window
 ##
