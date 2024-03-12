@@ -66,14 +66,12 @@ int main(int argc, char** argv) {
         temp.push_back(request);
         src.search(temp, configs[0].maxRes);
     }
-
-    printf("Press Enter to exit\n");
-    getchar();
     if (argc > 1 && std::string(argv[1]) == "--run_tests") {
         std::cout << "\033[1;32m----------TESTING-----------\033[0m" << std::endl;      
         ::testing::InitGoogleTest(&argc, argv);
         return RUN_ALL_TESTS();
     }
-    
+    printf("Press Enter to exit\n");
+    getchar();
     return 0;
 }
