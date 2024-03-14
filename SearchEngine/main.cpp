@@ -1,15 +1,11 @@
-#include "nlohmann/json.hpp"
-#include "gtest/gtest.h"
 #include "Index.h"
-#include <chrono>
-#include <cctype>
 std::mutex mute;
 using namespace std;
 void countWord(const std::string& word, InvertedIndex& idx) {
 
     idx.GetWordCount(word);
 }
-int main(int argc, char** argv) {
+int main() {
     std::vector<std::string> data;
     ConverterJSON converter;
     std::vector<Config> configs = converter.GetTextDocuments();
@@ -66,11 +62,7 @@ int main(int argc, char** argv) {
         temp.push_back(request);
         src.search(temp, configs[0].maxRes);
     }
-    if (argc > 1 && std::string(argv[1]) == "--run_tests") {
-        std::cout << "\033[1;32m----------TESTING-----------\033[0m" << std::endl;      
-        ::testing::InitGoogleTest(&argc, argv);
-        return RUN_ALL_TESTS();
-    }
+    
     printf("Press Enter to exit\n");
     getchar();
     return 0;
