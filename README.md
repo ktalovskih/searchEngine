@@ -8,36 +8,26 @@ Also, in the config, besides paths, there are max responses, case-insensitive se
 The first string sets the maximum count of responses, and the second sets will the application ignores the register of letters or not.
 
 # How to Build on Linux
-mkdir build_examples 
 
 cmake -S . -B build_examples 
 
 cmake --build build_examples
 
-cd build_examples/SearchEngine
-
-./SearchEngine
-
 # How to Build on Windows
-
-mkdir build_examples 
 
 cmake -G "MinGW Makefiles" -S . -B build_examples
 
 cmake --build build_examples 
 
-cd build_examples/SearchEngine
-
-./SearchEngine.exe
 ##
-# How to Run the Tests
-To run test you should add after run programs files --run_tests like an agrgument. After that in the command line will be results of tests
-For example: 
-./SearchEngine.exe --run_tests. 
-it is a running test in the Windows.
+# How to Run the Tests and the Application
+To run the tests, you should run the binary (./Test Linux, ./Test.exe Windows) located in build_examples/Test.
+
+To run the application, you should run the binary (./SearchEngine Linux, ./SearchEngine.exe Windows) located in build_examples/SearchEngine.
+
 # An Example of Output
 In the program window
-##
+
 Processing file: ../../../TestData/file004.txt
 
 Processing file: ../../../TestData/file003.txt
@@ -64,8 +54,6 @@ Press Enter to exit
 
 ##
 In the anwers.JSON
-
-
 
     "answers": {
         "request1": [
