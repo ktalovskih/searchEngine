@@ -1,7 +1,7 @@
 # Search Engine
 Search engine is a console application that can search special word (requsts) in local files and return results of searching. Result includes: a number of document, relative rank, which was made by a formula.
 
-The requsts are specified in the file requst.JSON and paths in the conjig.JSON file.
+The requsts are specified in the file requst.JSON and paths in the config.JSON file.
 
 Also, in the config, besides paths, there are max responses, case-insensitive search.
 
